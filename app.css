@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --space-cadet: #273469;
+    --space-cadet-dark: #1e2749;
+    --lavender-blue: #e4d9ff;
+}
+
+
+body {
+    height: auto;
+    background: linear-gradient(45deg, #f8e356, #FF4F8b,#e3b1f6);
+    background-size: 300% 300% !important;
+    animation: color 20s ease-in-out infinite;
+}
+
+
+
+@keyframes color {
+    0% {
+        background-position:  0 50%;
+    }
+    50% {
+        background-position:  100% 50%;
+    }
+    100% {
+        background-position:  0 50%;
+    }
+    
+}
+
+p {
+    color: aliceblue;
+}
+
+label {
+    font-weight: 800;
+}
+#calc-btn{
+    padding: 0.9rem 2.2rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 1.25rem;
+    background:var(--space-cadet-dark);
+    color: var(--lavender-blue);
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    border-radius: 15px;
+}
+#calc-btn:focus{
+    outline: 0;
+}
+#calc-btn:hover{
+    /* background: var(--space-cadet); */
+    background: rgb(29, 163, 29);
+}
+#calc-btn1 {
+    padding: 0.9rem 2.2rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 1.25rem;
+    background:var(--space-cadet-dark);
+    color: var(--lavender-blue);
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    border-radius: 15px;
+}
+#calc-btn1:focus{
+    outline: 0;
+}
+#calc-btn1:hover{
+    /* background: var(--space-cadet); */
+    background: rgb(187, 23, 23);
+}
+
+
+.form-control{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid var(--lavender-blue);
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+.form-control:focus{
+    outline: 0;
+    border-color: var(--space-cadet);
+}
+
+h2 {
+    color: var(--lavender-blue);
+    font-weight: 900;
+}
